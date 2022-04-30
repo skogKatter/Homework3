@@ -1,0 +1,294 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=M+PLUS+1&family=Marcellus+SC&display=swap');
+
+/*--------------------*/
+
+body{
+    font-family: 'M PLUS 1',
+    sans-serif;
+}
+
+.wrapper{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.header__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 70px;
+    letter-spacing: 0.1em;
+    color: #3E45E8;
+    margin: 30px 0;
+}
+
+.header__title span{
+   color: #E8C23E; 
+}
+
+.body {
+    background-image: url("../img/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 803px;
+    margin-bottom: 72px;
+}
+
+.body__img {
+    padding-left: 80px;
+    padding-top: 250px;
+}
+
+.body__text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color: #FFFFFF;
+    background-image: url("../img/flag.png");
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+.body__cards {
+    margin: 0 80px 80px 80px;
+}
+
+.cards__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 62.92px;
+    color: #000000;
+    margin: 0 0 20px 80px;
+}
+
+.line{
+    width: 402px;
+    border-bottom: 5px solid #3E45E8;
+    margin-left: 80px;
+    margin-bottom: 35px;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding-bottom: 75px;
+    box-shadow: 0px 4px 57px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.card__padding {
+    padding-bottom: 45px;
+}
+
+.card__margin{
+    margin: 0 4.5%;
+}
+
+.card__img img{
+    width: 100%;
+    
+}
+
+.card__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 157.3%;
+    color: #1E8DF2;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 157.3%;
+    color: #E8C23E;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px;
+}
+
+.body__ukraine {
+    text-align: center;
+}
+
+.ukraine-title {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 157.3%;
+    color: #000000;
+    margin-bottom: 21px;
+}
+
+.line2{
+    width: 402px;
+    border-bottom: 5px solid #3E45E8;
+    margin: 0 auto;
+}
+
+.ukraine__img {
+    padding-top: 41px;
+    margin-bottom: 41px;
+}
+
+.ukraine__button {
+    display: inline-block;
+    width: 591px;
+    background: #2A61F0;
+    margin-bottom: 21px;
+}
+
+.ukraine__button a{
+    display: inline-block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100.67px;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.footer {
+    text-align: center;
+    background: #2F4A4B;
+}
+
+.footer__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 70px;
+    letter-spacing: 0.1em;
+    color: #3E45E8;
+}
+
+.footer__title span{
+    color: #DFE31E;
+}
+
+.footer__info{
+    margin-bottom: 26px;
+}
+
+.footer__info a{
+    display: inline-block;
+    font-family: 'Marcellus SC',
+    serif;
+    font-style: normal;
+    color: #A89D9D;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    padding: 21px 0;
+}
+
+.footer__buttons {
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 27px;
+}
